@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
- * Main - Printing all single digit numbers in base 10
- *
- * Return - always return 0
- */
+* main - Print all single digit numbers using only putchar
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
   int ch;
+
   for (ch = 0; ch < 10; ch++)
     {
       putchar(ch + '0');
