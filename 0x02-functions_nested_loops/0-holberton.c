@@ -7,9 +7,9 @@
 
 int main(void)
 {
-  int ch = 'Holberton';
+int ch = 'Holberton';
 
-  _putchar(ch);
+_putchar(ch);
 
-  return (0);
+return (0);
 }
