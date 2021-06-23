@@ -8,10 +8,13 @@
 
 int main(void)
 {
-char ch = "Holberton";
+	int i;
+	char p[] = "Holberton";
 
-_putchar(ch);
-_putchar('\n');
- 
-return (0);
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
+	return (0);
 }
